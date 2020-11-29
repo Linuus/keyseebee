@@ -100,12 +100,12 @@ pub static LAYERS: keyberon::layout::Layers = &[
         &[k(Tab),    k(Q), k(W),  k(E),    k(R),   k(T),   k(Y),     k(U),    k(I),    k(O),   k(P),     k(Equal) ],
         &[k(LCtrl),  k(A), k(S),  k(D),    k(F),   k(G),   k(H),     k(J),    k(K),    k(L),   k(SColon),k(Quote) ],
         &[k(LShift), k(Z), k(X),  k(C),    k(V),   k(B),   k(N),     k(M),    k(Comma),k(Dot), k(Slash), k(Bslash)],
-        &[Trans,     Trans,Trans, k(LAlt), k(LGUI),L2_BSP, L1_ENTER, k(Space),k(RAlt), Trans,  Trans,    Trans    ],
+        &[Trans,     Trans,Trans, k(LAlt), k(LGui),L2_BSP, L1_ENTER, k(Space),k(RAlt), Trans,  Trans,    Trans    ],
     ], &[
-        &[Trans,         k(Pause),Trans,     k(PScreen),Trans,    Trans,Trans,  k(RBracket), k(LBracket),Trans,   Trans,  Trans ],
-        &[Trans,         Trans,   k(NumLock),k(Insert), k(Escape),Trans,k(Left),k(Down),     k(Up),      k(Right),Trans,  Trans ],
-        &[k(NonUsBslash),k(Undo), CUT,       COPY,      PASTE,    Trans,Trans,  k(Home),     k(PgDown),  k(PgUp), k(End), Trans ],
-        &[Trans,         Trans,   Trans,     Trans,     Trans,    Trans,Trans,  Trans,       Trans,      Trans,   Trans,  Trans ],
+        &[Trans, k(Pause),Trans,     k(PScreen),Trans,    Trans,Trans,  k(LBracket), k(RBracket),Trans,   Trans,  Trans ],
+        &[Trans, Trans,   k(NumLock),k(Insert), k(Escape),Trans,k(Left),k(Down),     k(Up),      k(Right),Trans,  Trans ],
+        &[Trans, k(Undo), CUT,       COPY,      PASTE,    Trans,Trans,  k(Home),     k(PgDown),  k(PgUp), k(End), Trans ],
+        &[Trans, Trans,   Trans,     Trans,     Trans,    Trans,Trans,  Trans,       Trans,      Trans,   Trans,  Trans ],
     ], &[
         &[s!(Grave),s!(Kb1),s!(Kb2),s!(Kb3),s!(Kb4),s!(Kb5),s!(Kb6),s!(Kb7),s!(Kb8),s!(Kb9),s!(Kb0),s!(Minus)],
         &[ k(Grave), k(Kb1), k(Kb2), k(Kb3), k(Kb4), k(Kb5), k(Kb6), k(Kb7), k(Kb8), k(Kb9), k(Kb0), k(Minus)],
